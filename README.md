@@ -7,8 +7,7 @@ This system uses vue components for authentication and profile views, as well as
 3. Create and configure the `.env` file 
 4. Set up the database:
     1. To set up the database you need to create two MySQL databases, one for the app, and one for testing.
-    2. The first one should be named: `challenge_dylan_celis`
-    3. The second one should be named: `challenge_test`
+    2. The first one should be named: `ManagmentSystem`
 5. Run migrations and seed the database with the command:
     ```bash
     php artisan migrate:fresh --seed
@@ -17,8 +16,4 @@ This system uses vue components for authentication and profile views, as well as
     ```bash
     npm run dev
     php artisan serve
-    ```
-7. Test the system by running:
-    ```bash
-    php artisan test
     ```
